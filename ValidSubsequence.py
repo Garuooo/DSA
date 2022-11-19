@@ -1,3 +1,4 @@
+# Time Complexity O(N) , Space Complexity O(1)
 def isValidSubsequence(array, sequence):
     sequence_index = 0
     array_index=0
@@ -12,6 +13,7 @@ def isValidSubsequence(array, sequence):
     else:
         return False
 
+# Time Complexity O(N) , Space Complexity O(1)
 def isValidSubsequence(array, sequence):
     pointer=0
     for element in array:
