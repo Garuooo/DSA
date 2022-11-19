@@ -1,4 +1,4 @@
-#time complexity O(N) | space complexity O(1)
+#time complexity O(N*2) | space complexity O(1)
 def twoNumberSum(array,target):
     for index,element in enumerate(array):
         target_number=target-element
